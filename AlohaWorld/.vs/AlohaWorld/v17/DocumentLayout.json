@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\AlohaWorld\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68FF2A4C-FD99-4741-B79D-592F77E555C4}|AlohaWorld\\AlohaWorld.csproj|c:\\users\\cemmr\\onedrive\\masa\u00FCst\u00FC\\cet301\\dotnet-maui-in-action\\alohaworld\\alohaworld\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68FF2A4C-FD99-4741-B79D-592F77E555C4}|AlohaWorld\\AlohaWorld.csproj|solutionrelative:alohaworld\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\AlohaWorld\\AlohaWorld\\MainPage.xaml",
+              "RelativeDocumentMoniker": "AlohaWorld\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\AlohaWorld\\AlohaWorld\\MainPage.xaml",
+              "RelativeToolTip": "AlohaWorld\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T09:41:41.614Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

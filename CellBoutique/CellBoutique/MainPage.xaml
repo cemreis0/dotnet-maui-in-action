@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CellBoutique.MainPage">
+    <CollectionView ItemsSource="{Binding Products}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Border StrokeShape="RoundRectangle 10"
+                        Stroke="{StaticResource Primary}"
+                        StrokeThickness="3"
+                        WidthRequest="400"
+                        HeightRequest="200">
+                    <HorizontalStackLayout>
+                        <Image Source="{Binding Image}"
+                               WidthRequest="100"
+                               HeightRequest="150"
+                               Aspect="AspectFill"
+                               HorizontalOptions="Start"
+                               Margin="20" />
+                        <VerticalStackLayout WidthRequest="200"
+                                             VerticalOptions="Center"
+                                             Margin="20">
+                            <Label Text="{Binding Title}"
+                                   FontAttributes="Bold" />
+                            <Label Text="{Binding Description}"
+                                   LineBreakMode="WordWrap"
+                                   VerticalOptions="Center"/>
+                            <Label Text="{Binding Price, StringFormat='{0:c}'}"
+                                       FontAttributes="Bold" />
+                        </VerticalStackLayout>
+                        </HorizontalStackLayout>
+                </Border>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>
