@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rTYIAG9FnSg=",
+  "dgSpecHash": "rC8tkaFj0Ms=",
   "success": true,
   "projectFilePath": "C:\\Users\\cemmr\\OneDrive\\Masaüstü\\CET301\\dotnet-maui-in-action\\MauiMovies\\MauiMovies\\MauiMovies.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cemmr\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\communitytoolkit.maui.9.1.1.nupkg.sha512",
+    "C:\\Users\\cemmr\\.nuget\\packages\\communitytoolkit.maui.core\\9.1.1\\communitytoolkit.maui.core.9.1.1.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -29,6 +31,7 @@
     "C:\\Users\\cemmr\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.11\\microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\microsoft.windowsappsdk.1.5.240627000.nupkg.sha512",
+    "C:\\Users\\cemmr\\.nuget\\packages\\system.speech\\8.0.0\\system.speech.8.0.0.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",
@@ -112,6 +115,10 @@
     "C:\\Users\\cemmr\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.9.0.1\\xamarin.kotlin.stdlib.jdk8.1.9.0.1.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.7.2.1\\xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.2.1\\xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
+    "C:\\Users\\cemmr\\.nuget\\packages\\microsoft.ios.ref.net8.0_18.0\\18.0.8316\\microsoft.ios.ref.net8.0_18.0.18.0.8316.nupkg.sha512",
+    "C:\\Users\\cemmr\\.nuget\\packages\\microsoft.ios.runtime.iossimulator-x64.net8.0_18.0\\18.0.8316\\microsoft.ios.runtime.iossimulator-x64.net8.0_18.0.18.0.8316.nupkg.sha512",
+    "C:\\Users\\cemmr\\.nuget\\packages\\microsoft.maccatalyst.ref.net8.0_18.0\\18.0.8316\\microsoft.maccatalyst.ref.net8.0_18.0.18.0.8316.nupkg.sha512",
+    "C:\\Users\\cemmr\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0\\18.0.8316\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0.18.0.8316.nupkg.sha512",
     "C:\\Users\\cemmr\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.54\\microsoft.windows.sdk.net.ref.10.0.19041.54.nupkg.sha512"
   ],
   "logs": []
