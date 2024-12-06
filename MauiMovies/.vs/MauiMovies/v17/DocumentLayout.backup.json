@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\MauiMovies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25187D96-1DBA-433F-A5BD-72E74903E9F0}|MauiMovies\\MauiMovies.csproj|c:\\users\\cemmr\\onedrive\\masa\u00FCst\u00FC\\cet301\\dotnet-maui-in-action\\mauimovies\\mauimovies\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25187D96-1DBA-433F-A5BD-72E74903E9F0}|MauiMovies\\MauiMovies.csproj|solutionrelative:mauimovies\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25187D96-1DBA-433F-A5BD-72E74903E9F0}|MauiMovies\\MauiMovies.csproj|c:\\users\\cemmr\\onedrive\\masa\u00FCst\u00FC\\cet301\\dotnet-maui-in-action\\mauimovies\\mauimovies\\genrelistpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25187D96-1DBA-433F-A5BD-72E74903E9F0}|MauiMovies\\MauiMovies.csproj|solutionrelative:mauimovies\\genrelistpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25187D96-1DBA-433F-A5BD-72E74903E9F0}|MauiMovies\\MauiMovies.csproj|c:\\users\\cemmr\\onedrive\\masa\u00FCst\u00FC\\cet301\\dotnet-maui-in-action\\mauimovies\\mauimovies\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{25187D96-1DBA-433F-A5BD-72E74903E9F0}|MauiMovies\\MauiMovies.csproj|solutionrelative:mauimovies\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{25187D96-1DBA-433F-A5BD-72E74903E9F0}|MauiMovies\\MauiMovies.csproj|c:\\users\\cemmr\\onedrive\\masa\u00FCst\u00FC\\cet301\\dotnet-maui-in-action\\mauimovies\\mauimovies\\genrelistpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25187D96-1DBA-433F-A5BD-72E74903E9F0}|MauiMovies\\MauiMovies.csproj|solutionrelative:mauimovies\\genrelistpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 319,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\MauiMovies\\MauiMovies\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MauiMovies\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\MauiMovies\\MauiMovies\\MainPage.xaml",
-              "RelativeToolTip": "MauiMovies\\MainPage.xaml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GenreListPopup.xaml",
+              "DocumentMoniker": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\MauiMovies\\MauiMovies\\GenreListPopup.xaml",
+              "RelativeDocumentMoniker": "MauiMovies\\GenreListPopup.xaml",
+              "ToolTip": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\MauiMovies\\MauiMovies\\GenreListPopup.xaml",
+              "RelativeToolTip": "MauiMovies\\GenreListPopup.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-05T08:44:27.089Z",
+              "WhenOpened": "2024-12-05T13:13:20.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\MauiMovies\\MauiMovies\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MauiMovies\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\MauiMovies\\MauiMovies\\MainPage.xaml.cs",
-              "RelativeToolTip": "MauiMovies\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GenreListPopup.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\MauiMovies\\MauiMovies\\GenreListPopup.xaml.cs",
+              "RelativeDocumentMoniker": "MauiMovies\\GenreListPopup.xaml.cs",
+              "ToolTip": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\MauiMovies\\MauiMovies\\GenreListPopup.xaml.cs",
+              "RelativeToolTip": "MauiMovies\\GenreListPopup.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:44:29.105Z",
+              "WhenOpened": "2024-12-05T13:14:49.635Z",
               "EditorCaption": ""
             }
           ]

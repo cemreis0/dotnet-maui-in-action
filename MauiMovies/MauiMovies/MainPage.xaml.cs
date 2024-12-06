@@ -8,7 +8,7 @@ namespace MauiMovies
     public partial class MainPage : ContentPage
     {
 
-        string _apiKey = "d515ebc07fdb3600baffe6c20bebf6e2";
+        string _apiKey = "";
         string _baseUri = "https://api.themoviedb.org/3/";
         string _imageBaseUrl = "https://image.tmdb.org/t/p/w500";
         private TrendingMovies _movieList;
