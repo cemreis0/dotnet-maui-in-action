@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiMovies")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ccadd97fba3d7ba6f0cc1a3b3c118d71e28ff674")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4b85e44d577c53ad2e289b9fc5d6c85bd2f7fb53")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiMovies")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiMovies")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

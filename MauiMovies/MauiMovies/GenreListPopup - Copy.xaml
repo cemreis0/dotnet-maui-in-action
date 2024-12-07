@@ -2,27 +2,25 @@
 <mct:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
            xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-           x:Class="MauiMovies.GenreListPopup"
-           Size="400, 600">
-
+           Size="600,600"
+           x:Class="MauiMovies.GenreListPopup">
+    
     <VerticalStackLayout Spacing="10"
                          Padding="10">
 
         <Button Text="Confirm"
-                Clicked="Button_Clicked"/>
+                Clicked="Button_Clicked" />
 
         <CollectionView ItemsSource="{Binding Genres}"
                         SelectionMode="Multiple"
-                        SelectionChanged="CollectionView_SelectionChanged"
-                        Margin="10">
+                        SelectionChanged="CollectionView_SelectionChanged">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Label Text="{Binding name}"
-                           Margin="10, 0"
-                           TextColor="{StaticResource Primary}" />
+                    <Label Text="{Binding name}" />
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
 
     </VerticalStackLayout>
+    
 </mct:Popup>

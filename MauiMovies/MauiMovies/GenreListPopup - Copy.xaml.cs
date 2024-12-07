@@ -9,10 +9,10 @@ public partial class GenreListPopup : Popup
 	public ObservableCollection<UserGenre> Genres { get; set; }
     private bool _selectionHasChanged = false;
 
-    public GenreListPopup(List<UserGenre> Genres)
+    public GenreListPopup()
 	{
 		BindingContext = this;
-		this.Genres = new ObservableCollection<UserGenre>(Genres);
+		this.Genres = new ObservableCollection<UserGenre>();
         InitializeComponent();
 
         ResultWhenUserTapsOutsideOfPopup = _selectionHasChanged;

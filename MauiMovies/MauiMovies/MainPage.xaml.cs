@@ -1,5 +1,7 @@
-﻿using MauiMovies.Models;
+﻿using CommunityToolkit.Maui.Views;
+using MauiMovies.Models;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Net.Http.Json;
 using System.Windows.Input;
 
@@ -13,13 +15,11 @@ namespace MauiMovies
         string _imageBaseUrl = "https://image.tmdb.org/t/p/w500";
         private TrendingMovies _movieList;
         private GenreList _genres;
-        public ObservableCollection<Genre> Genres { get; set; } = new ();
-        public ObservableCollection<MovieResult> Movies { get; set; } = new();
-        public ICommand ChooseGenres { get; set; }
-        public ICommand ShowMovie { get; set; }
+        public ObservableCollection<Genre> Genres { get; set; } = [];
+        public ObservableCollection<MovieResult> Movies { get; set; } = [];
         public bool IsLoading { get; set; }
         private readonly HttpClient _httpClient;
-        private List<UserGenre> _genreList { get; set; } = new();
+        private List<UserGenre> _genreList { get; set; } = [];
 
         public MainPage()
         {
@@ -49,7 +49,7 @@ namespace MauiMovies
                 {
                     id = genre.id,
                     name = genre.name,
-                    Selected = false
+                    Selected = true
                 });
             }
 
@@ -81,6 +81,53 @@ namespace MauiMovies
                     Movies.Add(movie);
                 }
             }
+        }
+
+        public ICommand ChooseGenres => new Command(async () => await ShowGenreList());
+
+        public ICommand ShowMovie => new Command<MovieResult>((movie) => ShowMovieDetails(movie));
+
+        private async Task ShowGenreList()
+        {
+            var genrePopup = new GenreListPopup(_genreList);
+ 
+            var selected = await this.ShowPopupAsync(genrePopup);
+
+            if ((bool) selected)
+            {
+                Genres.Clear();
+                foreach (var genre in _genreList)
+                {
+                    if (genre.Selected)
+                    {
+                        Genres.Add(new Genre
+                        {
+                            name = genre.name
+                        });
+                    }
+                }
+
+                LoadFilteredMovies();
+            }
+        }
+
+        private void ShowMovieDetails(MovieResult movie)
+        {
+            if (movie == null)
+            {
+                Debug.WriteLine("Movie is null, cannot display popup.");
+                return;
+            }
+
+            var moviePopup = new MovieDetailsPopup(movie, _genres.genres);
+
+            if (moviePopup == null || moviePopup.Content == null)
+            {
+                Debug.WriteLine("Failed to create MovieDetailsPopup or its content.");
+                return;
+            }
+
+            this.ShowPopup(moviePopup);
         }
     }
 }
