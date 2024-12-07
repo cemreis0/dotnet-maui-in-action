@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\OutlookClone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F178EABF-A407-45CC-8966-A14F66B375DE}|OutlookClone\\OutlookClone.csproj|c:\\users\\cemmr\\onedrive\\masa\u00FCst\u00FC\\cet301\\dotnet-maui-in-action\\outlookclone\\outlookclone\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F178EABF-A407-45CC-8966-A14F66B375DE}|OutlookClone\\OutlookClone.csproj|solutionrelative:outlookclone\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F178EABF-A407-45CC-8966-A14F66B375DE}|OutlookClone\\OutlookClone.csproj|c:\\users\\cemmr\\onedrive\\masa\u00FCst\u00FC\\cet301\\dotnet-maui-in-action\\outlookclone\\outlookclone\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F178EABF-A407-45CC-8966-A14F66B375DE}|OutlookClone\\OutlookClone.csproj|solutionrelative:outlookclone\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 319,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\OutlookClone\\OutlookClone\\MainPage.xaml",
+              "RelativeDocumentMoniker": "OutlookClone\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\OutlookClone\\OutlookClone\\MainPage.xaml",
+              "RelativeToolTip": "OutlookClone\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T11:52:18.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\OutlookClone\\OutlookClone\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "OutlookClone\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\cemmr\\OneDrive\\Masa\u00FCst\u00FC\\CET301\\dotnet-maui-in-action\\OutlookClone\\OutlookClone\\MainPage.xaml.cs",
+              "RelativeToolTip": "OutlookClone\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:44:38.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 81,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
